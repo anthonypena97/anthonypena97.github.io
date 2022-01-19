@@ -54,7 +54,7 @@ function Nav(props) {
   return (
     <header className="flex-row  headerStyle">
       <h2 className="titleContainer">
-        <a className="siteTitle" data-testid="link" href="/pena-portfolio">
+        <a className="siteTitle" data-testid="link" href="/">
           ANTHONY PEÑA
         </a>
       </h2>
