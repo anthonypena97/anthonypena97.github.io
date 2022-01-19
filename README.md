@@ -26,7 +26,7 @@ As a user, you may read more about me, see a list of my coding project highlight
 * [Acknowledgmenets](#Acknowledgments)
 
 ## Installation
-No Installation necessary, simply visit [Anthony Pena Portfolio](https://anthonypena97.github.io/anthonypena97.github.io) and create an account.
+No Installation necessary, simply visit [Anthony Pena Portfolio](https://anthonypena97.github.io/anthonypena97.github.io).
 
 ## License
 MIT License
