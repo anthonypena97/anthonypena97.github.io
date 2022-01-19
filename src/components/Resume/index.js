@@ -7,7 +7,7 @@ function Resume(props) {
     currentCategory
   } = props;
 
-  console.log(currentCategory);
+  // console.log(currentCategory);
 
   if (currentCategory === "RESUME") {
 
