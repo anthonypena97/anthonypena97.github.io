@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumeFile from '../../assets/documents/ANTHONYPENA_RESUME_AUGUST_2021.pdf'
+import ResumeFile from '../../assets/documents/AnthonyPena_Resume_2022.pdf'
 
 function Resume(props) {
 
@@ -19,36 +19,40 @@ function Resume(props) {
 
             {/* FRONT END PROFICIENCY */}
             <div className="col-md resumeItem">
-              Front End
+              FRONT END
               <br></br>
               <br></br>
               HTML5
               <br></br>
               CSS3
               <br></br>
-              JAVSCRIPT
-              <br></br>
               REACT
               <br></br>
               VUE
               <br></br>
-              BOOSTRAP
+              WEBGL
+              <br></br>
+              THREE.JS
+              <br></br>
+              BOOTSTRAP
               <br></br>
               P5
               <br></br>
               PYTHON
-              <br></br>
-              MAX
             </div>
 
             {/* BACK END PROFICIENCY */}
             <div className="col-md resumeItem">
-              Back End
+              BACK END
               <br></br>
               <br></br>
-              NODE.JS
+              JAVSCRIPT
               <br></br>
-              NPM
+              TYPESCRIPT
+              <br></br>
+              NODE
+              <br></br>
+              NODE PACKAGES
               <br></br>
               EXPRESS
               <br></br>
@@ -63,18 +67,18 @@ function Resume(props) {
 
             {/* DEVELOPERS TOOLS UNDER MY BELT */}
             <div className="col-md resumeItem">
-              Dev Tools
+              DEV TOOLS
               <br></br>
               <br></br>
               VSCODE
               <br></br>
               GITHUB
               <br></br>
+              JEST
+              <br></br>
               INSOMNIA
               <br></br>
               WORKBENCH
-              <br></br>
-              CODE SANDBOX
               <br></br>
               GRAPHQL STUDIO
               <br></br>
@@ -83,6 +87,10 @@ function Resume(props) {
               NETLIFY
               <br></br>
               HEROKU
+              <br></br>
+              PHOTOSHOP
+              <br></br>
+              BLENDER
             </div>
           </div>
         </div>

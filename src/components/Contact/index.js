@@ -38,39 +38,28 @@ function ContactForm() {
 
   return (
     <section className="contactSection">
-      <form id="contact-form" onSubmit={handleSubmit} className="contactForm">
+
+
+
+      <div>
 
         <div>
-          <h1 data-testid="h1tag" className="contactTitle">SEND ME A LITTLE MESSAGE . . .</h1>
+          <a href="https://www.anthony-e-pena.com/">artist website</a>
         </div>
 
-        <div className="contactItem">
-          <label htmlFor="name">NAME:</label>
-          <input className="contactInput" type="text" name="name" defaultValue={name} onBlur={handleChange} />
+        <div>
+          <p>apena5@alumni.jh.edu</p>
         </div>
 
-        <div className="contactItem">
-          <label htmlFor="email">EMAIL:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+        <div>
+          <p>anthony.e.p3na@gmail.com</p>
         </div>
 
-        <div className="contactItem">
-          <label htmlFor="message">MESSAGE:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
+      </div>
 
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
 
-        <div className="contactItem submitContact">
-          <button data-testid="button" type="submit">Submit</button>
-        </div>
-
-      </form>
     </section>
+
   );
 }
 
