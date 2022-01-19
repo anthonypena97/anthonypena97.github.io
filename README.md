@@ -2,10 +2,9 @@
 ### Profesional Full Stack Web Developer Portfolio Page
 ![MIT License badge](https://img.shields.io/badge/license-MIT_License-green)
 
-![pena-portfolio-demo](https://user-images.githubusercontent.com/79285555/135895002-5251e88e-a619-40fa-877f-7455dbb651cf.gif)
+]![portfolio-demo](https://user-images.githubusercontent.com/79285555/150059160-80f36f0a-6d12-4739-9598-ad3a89aa8149.gif)](https://anthonypena97.github.io/)
 
-
-#### https://anthonypena97.github.io/
+#### Live Site: https://anthonypena97.github.io/
 
 
 <p> ---------------------------------------- </p>
