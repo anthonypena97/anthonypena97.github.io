@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumeFile from '../../assets/documents/AnthonyPena_Resume_2022.pdf'
+import ResumeFile from '../../assets/documents/AnthonyPena_Resume_April2022.pdf'
 
 function Resume(props) {
 
@@ -46,7 +46,7 @@ function Resume(props) {
               BACK END
               <br></br>
               <br></br>
-              JAVSCRIPT
+              JAVASCRIPT
               <br></br>
               TYPESCRIPT
               <br></br>
@@ -63,6 +63,8 @@ function Resume(props) {
               MONGODB
               <br></br>
               GRAPHQL
+              <br></br>
+              AWS
             </div>
 
             {/* DEVELOPERS TOOLS UNDER MY BELT */}
@@ -98,7 +100,7 @@ function Resume(props) {
         {/* DOWNLOAD TO MY RESUME */}
         <div className="resumeDownload">
 
-          <a href={ResumeFile} className="resumeButton" download="ANTHONYPENA_RESUME_2021.pdf" target="_blank" rel="noopener noreferrer" >
+          <a href={ResumeFile} className="resumeButton" download="ANTHONYPENA_RESUME_2022.pdf" target="_blank" rel="noopener noreferrer" >
             DOWNLOAD RESUME
           </a>
 
