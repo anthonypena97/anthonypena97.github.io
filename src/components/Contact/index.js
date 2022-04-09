@@ -5,15 +5,11 @@ function ContactForm() {
       <div>
 
         <div>
-          <a href="https://www.anthony-e-pena.com/">artist website</a>
+          <a className="contactItem" href="https://www.anthony-e-pena.com">artist website</a>
         </div>
 
         <div>
-          <p>apena5@alumni.jh.edu</p>
-        </div>
-
-        <div>
-          <p>anthony.e.p3na@gmail.com</p>
+          <a className="contactItem" href="mailto: anthony.e.p3na@gmail.com">anthony.e.p3na@gmail.com</a>
         </div>
 
       </div>
