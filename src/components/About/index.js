@@ -18,13 +18,17 @@ function About(props) {
         </div>
         <div className=" aboutContainers aboutText">
           <p className="aboutTextTitle">
-            Artist & Web Developer
+            Software Engineer
           </p>
-          <div className="descriptionText">
-            <p>
-              A graduate from the Peabody Music Conservatory at The Johns Hopkins University.<br></br><br></br>Currently a Full Stack Web Developer interested in hyper interactive 3D web design.
-            </p>
-          </div>
+          <p>
+            Johns Hopkins University  Graduate with a Bachelor of Music in Computer Music
+          </p>
+          <p>
+            University of Utah Web Development Bootcamp Graduate using the MERN Full Stack
+          </p>
+          <p>
+            Currently a Software Engineer Intern at <a className="aboutLink" href="https://www.splice.com">Splice</a>
+          </p>
         </div>
       </section>
     );

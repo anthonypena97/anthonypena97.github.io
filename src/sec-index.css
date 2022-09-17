@@ -255,7 +255,12 @@ ul {
 }
 
 .aboutText p {
-  font-size: 2vw;
+  font-size: 1.75vw;
+  padding-bottom: 1vh;
+}
+
+.aboutLink {
+  text-decoration: underline;
 }
 
 /* ============================= RESUME ======================== */
@@ -454,11 +459,9 @@ ul {
     margin-left: 15vw;
     margin-right: 15vw;
 
-    /* display: flex; */
     display: block;
     height: 53vh;
     overflow-y: scroll;
-    /* background-color: maroon; */
 
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -webkit-animation-fill-mode: initial;
@@ -471,35 +474,25 @@ ul {
   }
 
   .aboutContainers {
-    /* background-color: mediumaquamarine; */
-    /* padding-right: 2vw; */
     width: 100%;
   }
 
   .aboutText {
     width: 100%;
     text-align: justify;
-    /* background-color: mediumorchid; */
   }
 
   .aboutImage {
-    /* width: 70vw; */
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100%; */
   }
 
   .aboutImage img {
-    /* width: 70vw; */
     padding: 0;
     margin: 0;
-    /* padding-bottom: 6vh; */
-    /* z-index: -1; */
-    /* height: 100%; */
-    /* object-fit: cover */
   }
 
   .aboutText {
@@ -509,7 +502,7 @@ ul {
   }
 
   .aboutText p {
-    font-size: 5vw;
+    font-size: 4vw;
     margin-top: 1vh;
   }
 
