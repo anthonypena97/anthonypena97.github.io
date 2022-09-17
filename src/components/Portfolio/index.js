@@ -26,12 +26,12 @@ function Portfolio(props) {
             <div className="card portfolioBody" style={{ width: "18rem" }}>
               <img src={Tape} className="card-img-top" alt="..." />
               <ul className="list-group list-group-flush portfolioList">
-                <li className="list-group-item portfolioTitle">' TOTOPENA.GALLERY '</li>
-                <li className="list-group-item portfolioTitle portfolioDescription">Virtual 3D Gallery using Three.js and Blender</li>
-                <a href="https://github.com/anthonypena97/brasil-fuerte" rel="noreferrer" target="_blank">
+                <li className="list-group-item portfolioTitle">VIRTUAL GALLERY</li>
+                <li className="list-group-item portfolioTitle portfolioDescription">Virtual Gallery for 3D models using Three.js</li>
+                <a href="https://github.com/anthonypena97/threejs-boilerplate" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">GITHUB</li>
                 </a>
-                <a href="https://totopena.gallery" rel="noreferrer" target="_blank">
+                <a href="https://virtual-gallery.io" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">SITE</li>
                 </a>
               </ul>
