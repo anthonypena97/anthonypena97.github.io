@@ -21,7 +21,7 @@ function About(props) {
             Software Engineer
           </p>
           <p>
-            Johns Hopkins University  Graduate with a Bachelor of Music in Computer Music
+            Johns Hopkins University  Graduate with a Bachelors of Music in Computer Music
           </p>
           <p>
             University of Utah Web Development Bootcamp Graduate using the MERN Full Stack
