@@ -14,7 +14,7 @@ function About(props) {
     return (
       <section className="my-5 aboutStyle">
         <div className="aboutContainers aboutImage">
-          <img src={Image} className="my-2 " style={{ width: "90%" }} alt="cover" />
+          <img src={Image} className="my-2 " alt="cover" />
         </div>
         <div className=" aboutContainers aboutText">
           <p className="aboutTextTitle">

@@ -232,6 +232,10 @@ ul {
   width: 60vw;
 }
 
+.aboutImage img{
+  width: 90%;
+}
+
 .aboutText p {
   font-size: 1.75vw;
   padding-bottom: 1vh;
@@ -450,7 +454,7 @@ ul {
     margin-right: 15vw;
 
     display: block;
-    height: 53vh;
+    height: 60vh;
     overflow-y: scroll;
 
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
@@ -481,6 +485,7 @@ ul {
   }
 
   .aboutImage img {
+    width: 75%;
     padding: 0;
     margin: 0;
   }
