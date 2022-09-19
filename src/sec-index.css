@@ -35,8 +35,8 @@ ul {
 .mainStyle {
   display: flex;
   width: 100%;
-  height: 90vh;
-  margin-bottom: 15vh;
+  height: 75vh;
+  padding-bottom: 1vh;
 }
 
 .siteTitle {
@@ -56,13 +56,14 @@ ul {
 .portfolioSection {
   margin-left: 18vw;
   margin-right: 18vw;
-  margin-bottom: 18vh;
 }
 
 .portfolioBody {
   background-color: rgba(3, 3, 65, 0.705);
-  height: 33vh;
+  height: 22vh;
   border-top-style: none;
+  margin-bottom: 3vh;
+  width: 18rem;
 }
 
 .portfolioTitle {
@@ -79,6 +80,7 @@ ul {
   text-align: center;
   padding: 0.5vh;
   border-top-style: none;
+  width: 100%;
 }
 
 .portfolioLink:hover {
@@ -98,13 +100,26 @@ ul {
   font-size: 1vw;
 }
 
+.portfolioCol{
+  padding: 0;
+  margin: 0;
+}
+
+.site{
+  padding-left: 20px;
+}
+
+.github{
+  padding-right: 15px;
+}
+
 /* ======================== CONTACT SECTION ==================== */
 
 .contactSection {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 12%;
+  padding-top: 280px;
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -330,13 +345,20 @@ ul {
   /* ============== portfolio ============== */
   .portfolioSection {
     margin-left: 20vw;
-    margin-right: 20vw;
+    margin-right: 19vw;
   }
   
   /* ============== resume ============== */
   .resumeSection {
     padding-left: 15vw;
     padding-right: 15vw;
+  }
+  
+  /* ============== footer ============== */
+  .footerElements {
+    float: right;
+    margin-right: 21%;
+    display: inline-flex;
   }
   
 }
@@ -423,7 +445,7 @@ ul {
   .mainStyle {
     display: flex;
     width: 100%;
-    height: 100vvh;
+    height: 100vh;
     margin-bottom: 15vh;
     position: relative;
     bottom: 31.5vh;
@@ -572,10 +594,10 @@ ul {
     margin: 0;
     border-style: none;
   }
-
+  
   .portfolioBody {
     background-color: rgba(3, 3, 65, 0.705);
-    height: 33vh;
+    height: 23vh;
     border-top-style: none;
     width: 100%;
     margin-bottom: 5vh;
