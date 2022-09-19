@@ -3,7 +3,7 @@
 ![MIT License badge](https://img.shields.io/badge/license-MIT_License-green)
 
 <div align=center>
-<a href="https://anthonypena97.github.io/" target="_blank">
+<a href="https://anthonypena97.github.io/" target="_blank" rel="noreferrer">
 <img alt="Anthony Pena Portfolio" width="1000" src="https://user-images.githubusercontent.com/79285555/191077959-3aad00d6-40ed-41ae-84c1-54c38867332b.gif">
 </a>
 </div>
