@@ -22,12 +22,12 @@ function Portfolio(props) {
 
           <div className="col-md">
 
-            {/* TOTOPENA.GALLERY */}
+            {/* VIRUAL GALLERY */}
             <div className="card portfolioBody" style={{ width: "18rem" }}>
               <img src={Tape} className="card-img-top" alt="..." />
               <ul className="list-group list-group-flush portfolioList">
                 <li className="list-group-item portfolioTitle">VIRTUAL GALLERY</li>
-                <li className="list-group-item portfolioTitle portfolioDescription">Virtual Gallery for 3D models using Three.js</li>
+                <li className="list-group-item portfolioTitle portfolioDescription">Virtual Gallery rendering 3D models using Three.js and Typescript</li>
                 <a href="https://github.com/anthonypena97/threejs-boilerplate" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">GITHUB</li>
                 </a>
@@ -46,7 +46,7 @@ function Portfolio(props) {
               <img src={Spotify} className="card-img-top" alt="..." />
               <ul className="list-group list-group-flush portfolioList">
                 <li className="list-group-item portfolioTitle">' OFFLINE LIBRARY '</li>
-                <li className="list-group-item portfolioTitle portfolioDescription">MySQL app for saving playlists using Spotify API</li>
+                <li className="list-group-item portfolioTitle portfolioDescription">Website for saving playlists using MySQl and Spotify API</li>
                 <a href="https://github.com/anthonypena97/spotify-library" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">GITHUB</li>
                 </a>
@@ -65,7 +65,7 @@ function Portfolio(props) {
               <img src={Game} className="card-img-top" alt="..." />
               <ul className="list-group list-group-flush portfolioList">
                 <li className="list-group-item portfolioTitle">' TEAM UP '</li>
-                <li className="list-group-item portfolioTitle portfolioDescription">Gamer social media React app using GraphQL</li>
+                <li className="list-group-item portfolioTitle portfolioDescription">Social media for gamers using React and GraphQL</li>
                 <a href="https://github.com/Jsieler/team-up" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">GITHUB</li>
                 </a>
@@ -89,7 +89,7 @@ function Portfolio(props) {
               <img src={Book} className="card-img-top" alt="..." />
               <ul className="list-group list-group-flush portfolioList">
                 <li className="list-group-item portfolioTitle">' BOOK TIME '</li>
-                <li className="list-group-item portfolioTitle portfolioDescription">MERN App for saving books using GraphQL</li>
+                <li className="list-group-item portfolioTitle portfolioDescription">MERN App for saving books using Google Books API and GraphQL</li>
                 <a href="https://github.com/anthonypena97/book-time" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">GITHUB</li>
                 </a>
@@ -108,7 +108,7 @@ function Portfolio(props) {
               <img src={Hiker} className="card-img-top" alt="..." />
               <ul className="list-group list-group-flush portfolioList">
                 <li className="list-group-item portfolioTitle">' TRAIL FINDERS '</li>
-                <li className="list-group-item portfolioTitle portfolioDescription">Client-side app for saving hiking trails using TrailAPI</li>
+                <li className="list-group-item portfolioTitle portfolioDescription">Web app for saving hiking trails using TrailAPI</li>
                 <a href="https://github.com/anthonypena97/01-project" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">GITHUB</li>
                 </a>
@@ -127,7 +127,7 @@ function Portfolio(props) {
               <img src={Cloud} className="card-img-top" alt="..." />
               <ul className="list-group list-group-flush portfolioList">
                 <li className="list-group-item portfolioTitle">' WEATHER DASHBOARD '</li>
-                <li className="list-group-item portfolioTitle portfolioDescription">Dashboard utility using Openweather API</li>
+                <li className="list-group-item portfolioTitle portfolioDescription">Web App designed like dashboard utility using Openweather API</li>
                 <a href="https://github.com/anthonypena97/weather-dashboard" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">GITHUB</li>
                 </a>

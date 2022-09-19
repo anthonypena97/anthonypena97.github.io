@@ -321,6 +321,8 @@ ul {
   /* background-color: red; */
   /* margin-top: auto; */
   padding-bottom: 2.5%;
+  padding-left: 50%;
+  padding-right: 50%;
 }
 
 .pixelIcon {
@@ -549,16 +551,32 @@ ul {
   /* ================= portfolio =============== */
 
   .portfolioSection {
-    /* background-color: cadetblue; */
     margin: 0;
     padding: 0;
     margin-top: 6vh;
     padding-top: 12vh;
     margin-left: 12vw;
     margin-right: 10vw;
-    /* margin-bottom: 18vh; */
     height: 55vh;
     overflow-y: scroll;
+  }
+  
+  .portfolioList {
+    margin: 0;
+  }
+  
+  .portfolioTitle {
+    font-size: 2.5vh;
+  }
+  
+  .portfolioDescription {
+    font-size: 1.5vh;
+    font-style: italic;
+  }
+  
+  .portfolioLink {
+    font-size: 1.25vh;
+    font-style: italic;
   }
 
   .card {
@@ -568,8 +586,6 @@ ul {
 
   .portfolioBody {
     background-color: rgba(3, 3, 65, 0.705);
-    /* padding-bottom: 2vh; */
-    /* border-top-style: none; */
     height: 33vh;
     border-top-style: none;
     width: 100%;
