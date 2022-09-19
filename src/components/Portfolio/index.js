@@ -112,7 +112,7 @@ function Portfolio(props) {
                 <a href="https://github.com/anthonypena97/01-project" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">GITHUB</li>
                 </a>
-                <a href="https://anthonypena97.github.io/01-project/" rel="noreferrer" target="_blank">
+                <a href="https://anthonypena97.github.io/trail-finder/" rel="noreferrer" target="_blank">
                   <li className="list-group-item portfolioLink portfolioSite">SITE</li>
                 </a>
               </ul>
