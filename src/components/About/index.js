@@ -27,7 +27,7 @@ function About(props) {
             University of Utah Web Development Bootcamp Graduate using the MERN Full Stack
           </p>
           <p>
-            Currently a Software Engineer Intern at <a className="aboutLink" target="_blank" href="https://www.splice.com">Splice</a>
+            Currently a Software Engineer Intern at <a className="aboutLink" target="_blank" rel="noopener noreferrer" href="https://www.splice.com">Splice</a>
           </p>
         </div>
       </section>

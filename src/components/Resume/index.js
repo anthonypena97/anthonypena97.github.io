@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumeFile from '../../assets/documents/AnthonyPena_Resume_April2022.pdf'
+import ResumeFile from '../../assets/documents/AnthonyPena_Resume_Sept2022.pdf'
 
 function Resume(props) {
 
@@ -104,7 +104,7 @@ function Resume(props) {
         {/* DOWNLOAD TO MY RESUME */}
         <div className="resumeDownload">
 
-          <a href={ResumeFile} className="resumeButton" download="ANTHONYPENA_RESUME_2022.pdf" target="_blank" rel="noopener noreferrer" >
+          <a href={ResumeFile} className="resumeButton" download="AnthonyPena_Resume_Sept2022.pdf" target="_blank" rel="noopener noreferrer" >
             DOWNLOAD RESUME
           </a>
 
