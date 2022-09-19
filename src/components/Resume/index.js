@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumeFile from '../../assets/documents/AnthonyPena_Resume_April2022.pdf'
+import ResumeFile from '../../assets/documents/AnthonyPena_Resume_Sept2022.pdf'
 
 function Resume(props) {
 
@@ -26,19 +26,23 @@ function Resume(props) {
               <br></br>
               CSS3
               <br></br>
+              JAVASCRIPT
+              <br></br>
               REACT
               <br></br>
-              VUE
+              DART
               <br></br>
-              WEBGL
+              FLUTTER
               <br></br>
               THREE.JS
               <br></br>
-              BOOTSTRAP
+              BOOTSTRAP.JS
               <br></br>
-              P5
+              JQUERY
               <br></br>
-              PYTHON
+              HANDLEBARS
+              <br></br>
+              GRAPHQL
             </div>
 
             {/* BACK END PROFICIENCY */}
@@ -46,23 +50,17 @@ function Resume(props) {
               BACK END
               <br></br>
               <br></br>
-              JAVASCRIPT
+              NODE.JS
               <br></br>
-              TYPESCRIPT
-              <br></br>
-              NODE
-              <br></br>
-              NODE PACKAGES
-              <br></br>
-              EXPRESS
-              <br></br>
-              HANDLEBARS
+              EXPRESS.JS
               <br></br>
               MYSQL
               <br></br>
+              SEQUELIZE
+              <br></br>
               MONGODB
               <br></br>
-              GRAPHQL
+              RESTFUL API
               <br></br>
               AWS
             </div>
@@ -74,7 +72,9 @@ function Resume(props) {
               <br></br>
               VSCODE
               <br></br>
-              GITHUB
+              ANDROID STUDIO
+              <br></br>
+              GIT
               <br></br>
               JEST
               <br></br>
@@ -82,13 +82,17 @@ function Resume(props) {
               <br></br>
               WORKBENCH
               <br></br>
-              GRAPHQL STUDIO
-              <br></br>
               MONGO ATLAS
+              <br></br>
+              APOLLO STUDIO
               <br></br>
               NETLIFY
               <br></br>
               HEROKU
+              <br></br>
+              WALDO
+              <br></br>
+              KANBAN
               <br></br>
               PHOTOSHOP
               <br></br>
@@ -100,7 +104,7 @@ function Resume(props) {
         {/* DOWNLOAD TO MY RESUME */}
         <div className="resumeDownload">
 
-          <a href={ResumeFile} className="resumeButton" download="ANTHONYPENA_RESUME_2022.pdf" target="_blank" rel="noopener noreferrer" >
+          <a href={ResumeFile} className="resumeButton" download="AnthonyPena_Resume_Sept2022.pdf" target="_blank" rel="noopener noreferrer" >
             DOWNLOAD RESUME
           </a>
 

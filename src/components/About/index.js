@@ -14,17 +14,21 @@ function About(props) {
     return (
       <section className="my-5 aboutStyle">
         <div className="aboutContainers aboutImage">
-          <img src={Image} className="my-2 " style={{ width: "90%" }} alt="cover" />
+          <img src={Image} className="my-2 " alt="cover" />
         </div>
         <div className=" aboutContainers aboutText">
           <p className="aboutTextTitle">
-            Artist & Web Developer
+            Software Engineer
           </p>
-          <div className="descriptionText">
-            <p>
-              A graduate from the Peabody Music Conservatory at The Johns Hopkins University.<br></br><br></br>Currently a Full Stack Web Developer interested in hyper interactive 3D web design.
-            </p>
-          </div>
+          <p>
+            Johns Hopkins University  Graduate with a Bachelors of Music in Computer Music
+          </p>
+          <p>
+            University of Utah Web Development Bootcamp Graduate using the MERN Full Stack
+          </p>
+          <p>
+            Currently a Software Engineer Intern at <a className="aboutLink" target="_blank" rel="noopener noreferrer" href="https://www.splice.com">Splice</a>
+          </p>
         </div>
       </section>
     );

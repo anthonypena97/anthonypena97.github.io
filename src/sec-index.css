@@ -26,18 +26,17 @@ ul {
 
 .headerStyle {
   margin-top: 2.5%;
-  margin-left: 6%;
-  margin-right: 6%;
   margin-bottom: 2vh;
+  margin-left: 240px;
+  margin-right: 240px;
+  justify-content:space-evenly;
 }
 
 .mainStyle {
   display: flex;
   width: 100%;
-  /* height: 100%; */
-  height: 90vh;
-  margin-bottom: 15vh;
-  /* background-color: green; */
+  height: 75vh;
+  padding-bottom: 1vh;
 }
 
 .siteTitle {
@@ -55,18 +54,16 @@ ul {
 /* ================ PORTFOLIO ============== */
 
 .portfolioSection {
-  /* background-color: cadetblue; */
   margin-left: 18vw;
   margin-right: 18vw;
-  margin-bottom: 18vh;
 }
 
 .portfolioBody {
   background-color: rgba(3, 3, 65, 0.705);
-  /* padding-bottom: 2vh; */
-  /* border-top-style: none; */
-  height: 33vh;
+  height: 22vh;
   border-top-style: none;
+  margin-bottom: 3vh;
+  width: 18rem;
 }
 
 .portfolioTitle {
@@ -83,6 +80,7 @@ ul {
   text-align: center;
   padding: 0.5vh;
   border-top-style: none;
+  width: 100%;
 }
 
 .portfolioLink:hover {
@@ -102,19 +100,26 @@ ul {
   font-size: 1vw;
 }
 
+.portfolioCol{
+  padding: 0;
+  margin: 0;
+}
+
+.site{
+  padding-left: 20px;
+}
+
+.github{
+  padding-right: 15px;
+}
+
 /* ======================== CONTACT SECTION ==================== */
 
 .contactSection {
   width: 100%;
-  /* display: inline-block; */
-  /* flex: 1; */
-  /* background-color: red; */
-  /* height: 100%;
-  width: 100%; */
-  /* margin-top: 8%; */
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 5%;
+  padding-top: 280px;
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -125,18 +130,12 @@ ul {
 .contactSection div {
   width: 100%;
   display: inline-block;
-  /* display: flex; */
-  /* align-items: left; */
-  /* justify-content: space-between; */
   justify-content: center;
 }
 
 .contactSection p {
   width: 100%;
   display: inline-block;
-  /* display: flex; */
-  /* align-items: left; */
-  /* justify-content: space-between; */
   justify-content: center;
   text-align: center;
 }
@@ -144,9 +143,6 @@ ul {
 .contactSection a {
   width: 100%;
   display: inline-block;
-  /* display: flex; */
-  /* align-items: left; */
-  /* justify-content: space-between; */
   justify-content: center;
   text-align: center;
   padding-bottom: 10px;
@@ -159,7 +155,6 @@ ul {
 }
 
 .pageStyle {
-  /* background-color: hotpink; */
   height: 100vh;
   width: 100vw;
 }
@@ -177,17 +172,16 @@ ul {
 /* ============================ ABOUT PAGE ======================= */
 
 .aboutStyle {
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 270px;
+  padding-right: 270px;
   display: flex;
-  /* background-color: maroon; */
-  margin-top: 5vh;
+  padding-top: 4vh;
 
-  -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 10s; /* Firefox < 16 */
-  -ms-animation: fadein 10s; /* Internet Explorer */
-  -o-animation: fadein 10s; /* Opera < 12.1 */
-  animation: fadein 10s;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
 }
 
 @keyframes fadein {
@@ -240,7 +234,6 @@ ul {
 }
 
 .aboutContainers {
-  /* background-color: mediumaquamarine; */
   padding-right: 2vw;
 }
 
@@ -254,29 +247,40 @@ ul {
   width: 60vw;
 }
 
+.aboutImage img{
+  width: 90%;
+}
+
 .aboutText p {
-  font-size: 2vw;
+  font-size: 1.75vw;
+  padding-bottom: 1vh;
+}
+
+.aboutLink {
+  text-decoration: underline;
+}
+
+.aboutLink:hover{
+  color: blue;
 }
 
 /* ============================= RESUME ======================== */
 
 .resumeSection {
-  /* background-color: crimson; */
   width: 100vw;
   height: 65vh;
-  padding-left: 7.5vw;
-  padding-right: 7.5vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
   margin-bottom: 50vh;
 }
 
 .resumeItem {
-  /* background-color: darkblue; */
   height: 60vh;
   border-radius: 20px;
   border-width: 15px;
   border-style: solid;
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .itemTwo {
@@ -287,10 +291,9 @@ ul {
 }
 
 .resumeDownload {
-  /* background-color: blue; */
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 1.5vh;
+  margin-top: 2vh;
   text-align: center;
 }
 
@@ -298,8 +301,7 @@ ul {
 
 .footerElements {
   float: right;
-  margin-right: 16%;
-  /* background-color: green; */
+  margin-right: 18%;
   display: inline-flex;
 }
 
@@ -309,9 +311,9 @@ ul {
   bottom: 0;
   width: 100%;
   height: 10vh;
-  /* background-color: red; */
-  /* margin-top: auto; */
   padding-bottom: 2.5%;
+  padding-left: 50%;
+  padding-right: 50%;
 }
 
 .pixelIcon {
@@ -329,6 +331,131 @@ ul {
   .resumeItem {
     font-size: 2.5vh;
   }
+}
+
+@media screen and (max-height: 960px) {
+  .headerStyle {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .aboutStyle{
+    padding-left: 230px;
+    padding-right: 230px;
+  }
+  
+}
+
+@media screen and (min-width: 970px) and (max-width: 1300px) {
+  
+  .headerStyle {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  
+  nav a{
+    margin: 0;
+  }
+  
+  .siteTitle{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .aboutStyle{
+    padding-left: 260px;
+    padding-right: 260px;
+  }
+  
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
+  
+  /* ============== about ============== */
+  .headerStyle {
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+  
+  .aboutStyle{
+    padding-left: 240px;
+    padding-right: 240px;
+  }
+  
+  .aboutImage img{
+    width: 100%;
+  }
+  
+  .aboutText p {
+    font-size: 2vw;
+    padding-bottom: 3vh;
+  }
+  
+  /* ============== portfolio ============== */
+  .portfolioSection {
+    margin-left: 14vw;
+    margin-right: 15vw;
+  }
+  
+  /* ============== resume ============== */
+  .resumeItem {
+    margin-left: 0.5vw;
+    margin-right: 1vw;
+  }
+  
+  .container{
+    width: 94%;
+  }
+  
+  /* ============== contact ============== */
+  .contactSection{
+    padding-top: 240px;
+  }
+  
+  /* ============== footer ============== */
+  .footerElements {
+    float: right;
+    margin-right: 14%;
+    display: inline-flex;
+  }
+  
+}
+
+/* ===================  ~~~~ larger screen ~~~~~ ===================== */
+@media screen and (min-width: 1500px) {
+  
+  /* ============== about ============== */
+  .headerStyle {
+    margin-left: 280px;
+    margin-right: 280px;
+  }
+  
+  .aboutStyle {
+    padding-left: 360px;
+    padding-right: 360px;
+  }
+  
+  /* ============== portfolio ============== */
+  .portfolioSection {
+    margin-left: 20vw;
+    margin-right: 19vw;
+  }
+  
+  /* ============== resume ============== */
+  .resumeSection {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+  
+  /* ============== footer ============== */
+  .footerElements {
+    float: right;
+    margin-right: 21%;
+    display: inline-flex;
+  }
+  
 }
 
 /* ==================== ~~~~ iphone ~~~~~ ======================== */
@@ -350,7 +477,6 @@ ul {
   }
 
   .dropdownContainer {
-    /* background-color: lightpink; */
     width: 100%;
     padding-left: 35vw;
     padding-right: 35vw;
@@ -362,13 +488,10 @@ ul {
     z-index: 100;
     width: 100vw;
     height: 26vh;
-    /* background-color: magenta; */
   }
 
   .smallNav div {
     width: 100vw;
-    /* margin-left: 5vw; */
-    /* margin-right: 20%; */
   }
 
   .menuButton {
@@ -381,15 +504,11 @@ ul {
   }
 
   .dropdownItem {
-    /* background-color: lightcoral; */
     transform: none;
   }
 
   .dropMenu {
     background-color: rgba(25, 25, 112, 0.822);
-    /* z-index: 10000; */
-    /* opacity: 1; */
-    /* width: 100%; */
   }
 
   .flex-row {
@@ -421,17 +540,14 @@ ul {
   .mainStyle {
     display: flex;
     width: 100%;
-    /* height: 100%; */
-    height: 100vvh;
+    height: 100vh;
     margin-bottom: 15vh;
     position: relative;
     bottom: 31.5vh;
-    /* background-color: green; */
   }
 
   .contactSection {
-    /* background-color: magenta; */
-    margin-top: 8vh;
+    margin-top: 30vh;
     height: 50vh;
   }
 
@@ -454,11 +570,9 @@ ul {
     margin-left: 15vw;
     margin-right: 15vw;
 
-    /* display: flex; */
     display: block;
-    height: 53vh;
+    height: 60vh;
     overflow-y: scroll;
-    /* background-color: maroon; */
 
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -webkit-animation-fill-mode: initial;
@@ -471,35 +585,26 @@ ul {
   }
 
   .aboutContainers {
-    /* background-color: mediumaquamarine; */
-    /* padding-right: 2vw; */
     width: 100%;
   }
 
   .aboutText {
     width: 100%;
     text-align: justify;
-    /* background-color: mediumorchid; */
   }
 
   .aboutImage {
-    /* width: 70vw; */
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100%; */
   }
 
   .aboutImage img {
-    /* width: 70vw; */
+    width: 75%;
     padding: 0;
     margin: 0;
-    /* padding-bottom: 6vh; */
-    /* z-index: -1; */
-    /* height: 100%; */
-    /* object-fit: cover */
   }
 
   .aboutText {
@@ -509,7 +614,7 @@ ul {
   }
 
   .aboutText p {
-    font-size: 5vw;
+    font-size: 4vw;
     margin-top: 1vh;
   }
 
@@ -545,35 +650,48 @@ ul {
   }
 
   .resumeDownload {
-    /* background-color: tomato; */
     padding-top: 8vh;
   }
 
   /* ================= portfolio =============== */
 
   .portfolioSection {
-    /* background-color: cadetblue; */
     margin: 0;
     padding: 0;
     margin-top: 6vh;
     padding-top: 12vh;
     margin-left: 12vw;
     margin-right: 10vw;
-    /* margin-bottom: 18vh; */
     height: 55vh;
     overflow-y: scroll;
+  }
+  
+  .portfolioList {
+    margin: 0;
+  }
+  
+  .portfolioTitle {
+    font-size: 2.5vh;
+  }
+  
+  .portfolioDescription {
+    font-size: 1.5vh;
+    font-style: italic;
+  }
+  
+  .portfolioLink {
+    font-size: 1.25vh;
+    font-style: italic;
   }
 
   .card {
     margin: 0;
     border-style: none;
   }
-
+  
   .portfolioBody {
     background-color: rgba(3, 3, 65, 0.705);
-    /* padding-bottom: 2vh; */
-    /* border-top-style: none; */
-    height: 33vh;
+    height: 23vh;
     border-top-style: none;
     width: 100%;
     margin-bottom: 5vh;
@@ -593,6 +711,12 @@ ul {
 
   .portfolioList {
     margin: 0;
+  }
+  
+  /* =================== contact ============== */
+  
+  .contactSection{
+    padding-top: 70px;
   }
 
   /* =================== footer ============== */
