@@ -26,9 +26,10 @@ ul {
 
 .headerStyle {
   margin-top: 2.5%;
-  margin-left: 6%;
-  margin-right: 6%;
   margin-bottom: 2vh;
+  margin-left: 240px;
+  margin-right: 240px;
+  justify-content:space-evenly;
 }
 
 .mainStyle {
@@ -161,11 +162,10 @@ ul {
 /* ============================ ABOUT PAGE ======================= */
 
 .aboutStyle {
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 270px;
+  padding-right: 270px;
   display: flex;
-  /* background-color: maroon; */
-  margin-top: 5vh;
+  padding-top: 4vh;
 
   -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 10s; /* Firefox < 16 */
@@ -224,7 +224,6 @@ ul {
 }
 
 .aboutContainers {
-  /* background-color: mediumaquamarine; */
   padding-right: 2vw;
 }
 
@@ -254,22 +253,20 @@ ul {
 /* ============================= RESUME ======================== */
 
 .resumeSection {
-  /* background-color: crimson; */
   width: 100vw;
   height: 65vh;
-  padding-left: 7.5vw;
-  padding-right: 7.5vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
   margin-bottom: 50vh;
 }
 
 .resumeItem {
-  /* background-color: darkblue; */
   height: 60vh;
   border-radius: 20px;
   border-width: 15px;
   border-style: solid;
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .itemTwo {
@@ -280,10 +277,9 @@ ul {
 }
 
 .resumeDownload {
-  /* background-color: blue; */
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 1.5vh;
+  margin-top: 2vh;
   text-align: center;
 }
 
@@ -291,7 +287,7 @@ ul {
 
 .footerElements {
   float: right;
-  margin-right: 22%;
+  margin-right: 18%;
   display: inline-flex;
 }
 
@@ -344,7 +340,6 @@ ul {
   }
 
   .dropdownContainer {
-    /* background-color: lightpink; */
     width: 100%;
     padding-left: 35vw;
     padding-right: 35vw;
@@ -356,13 +351,10 @@ ul {
     z-index: 100;
     width: 100vw;
     height: 26vh;
-    /* background-color: magenta; */
   }
 
   .smallNav div {
     width: 100vw;
-    /* margin-left: 5vw; */
-    /* margin-right: 20%; */
   }
 
   .menuButton {
@@ -375,15 +367,11 @@ ul {
   }
 
   .dropdownItem {
-    /* background-color: lightcoral; */
     transform: none;
   }
 
   .dropMenu {
     background-color: rgba(25, 25, 112, 0.822);
-    /* z-index: 10000; */
-    /* opacity: 1; */
-    /* width: 100%; */
   }
 
   .flex-row {
