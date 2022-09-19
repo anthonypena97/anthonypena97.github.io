@@ -333,7 +333,45 @@ ul {
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-height: 960px) {
+  .headerStyle {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .aboutStyle{
+    padding-left: 230px;
+    padding-right: 230px;
+  }
+  
+}
+
+@media screen and (min-width: 970px) and (max-width: 1300px) {
+  
+  .headerStyle {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  
+  nav a{
+    margin: 0;
+  }
+  
+  .siteTitle{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .aboutStyle{
+    padding-left: 260px;
+    padding-right: 260px;
+  }
+  
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
   
   /* ============== about ============== */
   .headerStyle {
@@ -342,8 +380,8 @@ ul {
   }
   
   .aboutStyle{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 240px;
+    padding-right: 240px;
   }
   
   .aboutImage img{
@@ -386,9 +424,14 @@ ul {
 }
 
 /* ===================  ~~~~ larger screen ~~~~~ ===================== */
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1500px) {
   
   /* ============== about ============== */
+  .headerStyle {
+    margin-left: 280px;
+    margin-right: 280px;
+  }
+  
   .aboutStyle {
     padding-left: 360px;
     padding-right: 360px;
