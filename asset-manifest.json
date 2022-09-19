@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.11c8de75.chunk.css",
-    "main.js": "/static/js/main.5e103cfd.chunk.js",
-    "main.js.map": "/static/js/main.5e103cfd.chunk.js.map",
+    "main.css": "/static/css/main.10ecfd53.chunk.css",
+    "main.js": "/static/js/main.84411727.chunk.js",
+    "main.js.map": "/static/js/main.84411727.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67047b1d.js",
     "runtime-main.js.map": "/static/js/runtime-main.67047b1d.js.map",
     "static/js/2.7376849d.chunk.js": "/static/js/2.7376849d.chunk.js",
@@ -10,22 +10,25 @@
     "static/js/3.832895d2.chunk.js": "/static/js/3.832895d2.chunk.js",
     "static/js/3.832895d2.chunk.js.map": "/static/js/3.832895d2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.11c8de75.chunk.css.map": "/static/css/main.11c8de75.chunk.css.map",
+    "static/css/main.10ecfd53.chunk.css.map": "/static/css/main.10ecfd53.chunk.css.map",
     "static/js/2.7376849d.chunk.js.LICENSE.txt": "/static/js/2.7376849d.chunk.js.LICENSE.txt",
-    "static/media/AnthonyPena_Resume_April2022.1259e31a.pdf": "/static/media/AnthonyPena_Resume_April2022.1259e31a.pdf",
-    "static/media/HIKER.9d9f2a31.jpg": "/static/media/HIKER.9d9f2a31.jpg",
+    "static/media/AnthonyPena_Resume_Sept2022.ac385cc1.pdf": "/static/media/AnthonyPena_Resume_Sept2022.ac385cc1.pdf",
     "static/media/anthonypena-2.1d61deb3.jpeg": "/static/media/anthonypena-2.1d61deb3.jpeg",
-    "static/media/book.ce3ec070.jpg": "/static/media/book.ce3ec070.jpg",
-    "static/media/cloud.1fa8fd90.jpg": "/static/media/cloud.1fa8fd90.jpg",
-    "static/media/game.9e662745.jpg": "/static/media/game.9e662745.jpg",
-    "static/media/spotify.1ce0e1db.jpg": "/static/media/spotify.1ce0e1db.jpg",
-    "static/media/tape.2df78a5c.jpg": "/static/media/tape.2df78a5c.jpg",
+    "static/media/book.3d98db32.jpg": "/static/media/book.3d98db32.jpg",
+    "static/media/cloud.1b98d468.jpg": "/static/media/cloud.1b98d468.jpg",
+    "static/media/controller.8786e7c4.jpg": "/static/media/controller.8786e7c4.jpg",
+    "static/media/gol.76275804.jpg": "/static/media/gol.76275804.jpg",
+    "static/media/hiker.f3100f28.jpg": "/static/media/hiker.f3100f28.jpg",
+    "static/media/hobby.1e250721.jpg": "/static/media/hobby.1e250721.jpg",
+    "static/media/journal.f93148d8.jpg": "/static/media/journal.f93148d8.jpg",
+    "static/media/spotify.f16d8ff9.jpg": "/static/media/spotify.f16d8ff9.jpg",
+    "static/media/tape.e10909bc.jpg": "/static/media/tape.e10909bc.jpg",
     "static/media/website-video.0d1cf74d.mp4": "/static/media/website-video.0d1cf74d.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.67047b1d.js",
     "static/js/2.7376849d.chunk.js",
-    "static/css/main.11c8de75.chunk.css",
-    "static/js/main.5e103cfd.chunk.js"
+    "static/css/main.10ecfd53.chunk.css",
+    "static/js/main.84411727.chunk.js"
   ]
 }
