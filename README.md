@@ -1,5 +1,5 @@
 # Anthony Pena Porfolio
-### Profesional Software Engineer Portfolio
+### Professional Software Engineer Portfolio
 ![MIT License badge](https://img.shields.io/badge/license-MIT_License-green)
 
 <div align=center>
