@@ -106,15 +106,9 @@ ul {
 
 .contactSection {
   width: 100%;
-  /* display: inline-block; */
-  /* flex: 1; */
-  /* background-color: red; */
-  /* height: 100%;
-  width: 100%; */
-  /* margin-top: 8%; */
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 5%;
+  padding-top: 12%;
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -125,18 +119,12 @@ ul {
 .contactSection div {
   width: 100%;
   display: inline-block;
-  /* display: flex; */
-  /* align-items: left; */
-  /* justify-content: space-between; */
   justify-content: center;
 }
 
 .contactSection p {
   width: 100%;
   display: inline-block;
-  /* display: flex; */
-  /* align-items: left; */
-  /* justify-content: space-between; */
   justify-content: center;
   text-align: center;
 }
@@ -144,9 +132,6 @@ ul {
 .contactSection a {
   width: 100%;
   display: inline-block;
-  /* display: flex; */
-  /* align-items: left; */
-  /* justify-content: space-between; */
   justify-content: center;
   text-align: center;
   padding-bottom: 10px;
@@ -159,7 +144,6 @@ ul {
 }
 
 .pageStyle {
-  /* background-color: hotpink; */
   height: 100vh;
   width: 100vw;
 }
@@ -307,8 +291,7 @@ ul {
 
 .footerElements {
   float: right;
-  margin-right: 16%;
-  /* background-color: green; */
+  margin-right: 22%;
   display: inline-flex;
 }
 
@@ -441,7 +424,6 @@ ul {
   }
 
   .contactSection {
-    /* background-color: magenta; */
     margin-top: 8vh;
     height: 50vh;
   }
