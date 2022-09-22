@@ -4,7 +4,7 @@
 
 <div align=center>
 <a href="https://anthonypena97.github.io/" target="_blank" rel="noreferrer">
-<img alt="Anthony Pena Portfolio" width="1000" src="https://user-images.githubusercontent.com/79285555/191077959-3aad00d6-40ed-41ae-84c1-54c38867332b.gif">
+<img alt="Anthony Pena Portfolio" width="1000" src="https://user-images.githubusercontent.com/79285555/191834707-d577fe6e-83cb-48d1-96c3-a7f7a35e3456.gif">
 </a>
 </div>
 
