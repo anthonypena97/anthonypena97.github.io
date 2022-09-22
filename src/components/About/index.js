@@ -21,10 +21,7 @@ function About(props) {
             Software Engineer
           </p>
           <p>
-            Johns Hopkins University  Graduate with a Bachelors of Music in Computer Music
-          </p>
-          <p>
-            University of Utah Web Development Bootcamp Graduate using the MERN Full Stack
+            Johns Hopkins University  Graduate
           </p>
           <p>
             Currently a Software Engineer Intern at <a className="aboutLink" target="_blank" rel="noopener noreferrer" href="https://www.splice.com">Splice</a>
