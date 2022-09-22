@@ -59,7 +59,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Version History
     
-* 2.0
+* 2.1
     *  See [commit change](https://github.com/anthonypena97/pena-portfolio/commits/main) or see [release history](https://github.com/anthonypena97/pena-portfolio/releases)
 
 ## Contributing
